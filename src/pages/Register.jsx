@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import { mobile } from "../responsive";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   /* since it is a full screen component */
@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
+  ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h1`
