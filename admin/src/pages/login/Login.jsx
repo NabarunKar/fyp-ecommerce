@@ -19,6 +19,7 @@ const Login = () => {
       style={{
         height: "100vh",
         display: "flex",
+        // to display them one upon the other
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
